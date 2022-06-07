@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">Store</Link>
+        <Link href="/">MY STORE</Link>
       </p>
       <button
         type="button"
