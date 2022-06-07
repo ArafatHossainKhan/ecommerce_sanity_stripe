@@ -8,9 +8,9 @@ import {
   AiOutlineShopping,
 } from "react-icons/ai";
 import { TiDeleteOutline } from "react-icons/ti";
-import { useStateContext } from "../../context/StateContext";
 import { urlFor } from "../components/lib/client";
 import getStripe from "../components/lib/getStripe";
+import { useStateContext } from "../context/StateContext";
 
 const Cart = () => {
   const cartRef = useRef();

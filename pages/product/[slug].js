@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { AiFillStar, AiOutlineMinus, AiOutlinePlus, AiOutlineStar } from 'react-icons/ai';
 import { useStateContext } from '../../context/StateContext';
-import { Product } from '../components';
-import { client, urlFor } from '../components/lib/client';
+import { Product } from '/components';
+import { client, urlFor } from '/components/lib/client';
 
 const ProductDetails = ({product, products}) => {
     const {image, name, details, price} = product;
