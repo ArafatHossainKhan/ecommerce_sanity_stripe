@@ -760,3 +760,9 @@ span.text-red {
     margin: auto;
   }
 }
+@media screen and (max-width: 435px) {
+  .product-image {
+    width: 180px;
+    height: 180px;
+  }
+}
