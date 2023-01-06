@@ -24,7 +24,10 @@
     "eslint": "^8.6.0",
     "prop-types": "^15.7",
     "react": "^17.0",
-    "react-dom": "^17.0"
+    "react-dom": "^17.0",
+    "@sanity/client": "^3.2.0",
+    "@sanity/image-url": "^1.0.1",
+    "styled-components": "^5.2.0"
     
   },
   "devDependencies": {}
