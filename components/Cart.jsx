@@ -33,6 +33,7 @@ const Cart = () => {
       },
       body: JSON.stringify(cartItems),
     });
+  
 
     if (response.statusCode === 500) return;
 

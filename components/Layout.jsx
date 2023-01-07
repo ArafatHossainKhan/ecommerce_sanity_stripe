@@ -7,7 +7,9 @@ const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
-        <title>Ecommerce Store</title>
+      <link rel="apple-touch-icon" href="/icon" />
+        <title>Ecommerce Store!</title>
+        <link rel="icon" href="/manifest.json" />
       </Head>
       <header>
         <NavBar />
